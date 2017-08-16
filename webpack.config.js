@@ -1,10 +1,10 @@
-var path = require('path');
+let path = require('path');
 
-var DIST_DIR = path.resolve(__dirname, 'dist');
-var SRC_DIR = path.resolve(__dirname, 'src');
+let DIST_DIR = path.resolve(__dirname, 'dist');
+let SRC_DIR = path.resolve(__dirname, 'src');
 
 
-var config = {
+let config = {
   entry: {
     main: SRC_DIR + '/app/index.js'
   },
